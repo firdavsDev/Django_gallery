@@ -1,0 +1,15 @@
+{% extends 'photos/base.html' %}
+<!-- 
+css uchun kerak buladi -->
+
+{% load crispy_forms_tags %}
+
+
+{% block content %}
+
+    <h2>Akountingizdan chiqdiz!</h2>
+    <div class="border-top pt-3">
+        <a class="ml-2" href="{% url 'login' %}">Qayta kirish</a>
+    </div>
+
+{% endblock content %}
